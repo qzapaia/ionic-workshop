@@ -1,0 +1,15 @@
+ <ion-view>
+    <ion-content>
+	    <div class="list">
+		    <a class="item item-thumbnail-left" 
+		       href="#"
+		       ng-repeat="item in data.listado"
+		       ng-click="detalle(item.id)">
+
+		      <img src="{{item.thumbnail}}">
+		      <h2>{{item.title}}</h2>
+		      <p>{{item.price}}</p>
+		    </a>
+		</div>
+    </ion-content>
+ </ion-view>
